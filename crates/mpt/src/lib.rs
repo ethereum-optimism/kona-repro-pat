@@ -7,11 +7,11 @@
 
 extern crate alloc;
 
-mod db;
-pub use db::{TrieAccount, TrieDB};
-
 mod fetcher;
 pub use fetcher::{NoopTrieDBFetcher, NoopTrieDBHinter, TrieDBFetcher, TrieDBHinter};
+
+mod db;
+pub use db::{TrieAccount, TrieDB};
 
 mod node;
 pub use node::TrieNode;
