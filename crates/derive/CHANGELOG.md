@@ -6,6 +6,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3](https://github.com/ethereum-optimism/kona-repro-pat/compare/kona-derive-v0.0.2...kona-derive-v0.0.3) - 2024-09-03
+
+### Added
+- *(workspace)* Workspace Re-exports ([#468](https://github.com/ethereum-optimism/kona-repro-pat/pull/468))
+- *(ci)* Add scheduled FPP differential tests ([#408](https://github.com/ethereum-optimism/kona-repro-pat/pull/408))
+- *(derive+trusted-sync)* online blob provider with fallback ([#410](https://github.com/ethereum-optimism/kona-repro-pat/pull/410))
+- increase granularity ([#365](https://github.com/ethereum-optimism/kona-repro-pat/pull/365))
+- *(derive)* histogram for number of channels for given frame counts ([#337](https://github.com/ethereum-optimism/kona-repro-pat/pull/337))
+- *(derive)* track the current channel size ([#331](https://github.com/ethereum-optimism/kona-repro-pat/pull/331))
+- *(derive)* more stage metrics ([#326](https://github.com/ethereum-optimism/kona-repro-pat/pull/326))
+- *(derive)* Granular Provider Metrics ([#325](https://github.com/ethereum-optimism/kona-repro-pat/pull/325))
+- *(derive)* Stage Level Metrics ([#309](https://github.com/ethereum-optimism/kona-repro-pat/pull/309))
+- *(examples)* Trusted Sync Metrics ([#308](https://github.com/ethereum-optimism/kona-repro-pat/pull/308))
+
+### Fixed
+- downgrade for release plz ([#458](https://github.com/ethereum-optimism/kona-repro-pat/pull/458))
+- *(workspace)* Add Unused Dependency Lint ([#453](https://github.com/ethereum-optimism/kona-repro-pat/pull/453))
+- *(derive)* remove fpvm tests ([#447](https://github.com/ethereum-optimism/kona-repro-pat/pull/447))
+- *(derive)* Granite Hardfork Support ([#420](https://github.com/ethereum-optimism/kona-repro-pat/pull/420))
+- remove data iter option ([#405](https://github.com/ethereum-optimism/kona-repro-pat/pull/405))
+- *(deps)* Bump Alloy Dependencies ([#409](https://github.com/ethereum-optimism/kona-repro-pat/pull/409))
+- *(kona-derive)* Remove SignedRecoverable Shim ([#400](https://github.com/ethereum-optimism/kona-repro-pat/pull/400))
+- *(derive)* Pipeline Reset ([#383](https://github.com/ethereum-optimism/kona-repro-pat/pull/383))
+- *(examples)* Start N Blocks Back from Tip ([#349](https://github.com/ethereum-optimism/kona-repro-pat/pull/349))
+- *(derive)* Unused var w/o `metrics` feature ([#345](https://github.com/ethereum-optimism/kona-repro-pat/pull/345))
+- *(derive)* bind the Pipeline trait to Iterator ([#334](https://github.com/ethereum-optimism/kona-repro-pat/pull/334))
+- *(derive)* prefix all metric names ([#330](https://github.com/ethereum-optimism/kona-repro-pat/pull/330))
+- *(examples)* don't panic on validation fetch failure ([#327](https://github.com/ethereum-optimism/kona-repro-pat/pull/327))
+- *(derive)* Warnings with metrics macro ([#322](https://github.com/ethereum-optimism/kona-repro-pat/pull/322))
+
+### Other
+- *(workspace)* Alloy Version Bumps ([#467](https://github.com/ethereum-optimism/kona-repro-pat/pull/467))
+- *(workspace)* Update for `anton-rs` org transfer ([#474](https://github.com/ethereum-optimism/kona-repro-pat/pull/474))
+- *(workspace)* Hoist Dependencies ([#466](https://github.com/ethereum-optimism/kona-repro-pat/pull/466))
+- *(derive)* reset docs ([#464](https://github.com/ethereum-optimism/kona-repro-pat/pull/464))
+- *(derive)* Remove udeps ([#462](https://github.com/ethereum-optimism/kona-repro-pat/pull/462))
+- *(bin)* Remove `kt` ([#461](https://github.com/ethereum-optimism/kona-repro-pat/pull/461))
+- refactor types out of kona-derive ([#454](https://github.com/ethereum-optimism/kona-repro-pat/pull/454))
+- *(derive)* Channel timeout ([#437](https://github.com/ethereum-optimism/kona-repro-pat/pull/437))
+- *(derive)* remove previous stage trait ([#423](https://github.com/ethereum-optimism/kona-repro-pat/pull/423))
+- *(examples)* Add logs to trusted-sync ([#415](https://github.com/ethereum-optimism/kona-repro-pat/pull/415))
+- *(derive)* refine channel frame count buckets ([#378](https://github.com/ethereum-optimism/kona-repro-pat/pull/378))
+- *(derive)* Remove noisy batch logs ([#329](https://github.com/ethereum-optimism/kona-repro-pat/pull/329))
+- clean up trusted sync loop ([#318](https://github.com/ethereum-optimism/kona-repro-pat/pull/318))
+- *(docs)* Label Cleanup ([#307](https://github.com/ethereum-optimism/kona-repro-pat/pull/307))
+- *(derive)* add targets to stage logs ([#310](https://github.com/ethereum-optimism/kona-repro-pat/pull/310))
+
 ## [0.0.2](https://github.com/anton-rs/kona/compare/kona-derive-v0.0.1...kona-derive-v0.0.2) - 2024-06-22
 
 ### Added
