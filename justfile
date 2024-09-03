@@ -7,6 +7,8 @@ alias b := build
 alias d := docker-build-ts
 alias r := docker-run-ts
 
+# Just triggering a release-plz
+
 # default recipe to display help information
 default:
   @just --list
