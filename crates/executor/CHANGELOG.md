@@ -6,6 +6,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2](https://github.com/ethereum-optimism/kona-repro-pat/compare/kona-executor-v0.0.1...kona-executor-v0.0.2) - 2024-09-03
+
+### Added
+- *(executor)* Expose full revm Handler ([#475](https://github.com/ethereum-optimism/kona-repro-pat/pull/475))
+- *(workspace)* Workspace Re-exports ([#468](https://github.com/ethereum-optimism/kona-repro-pat/pull/468))
+- *(executor)* `StatelessL2BlockExecutor` benchmarks ([#350](https://github.com/ethereum-optimism/kona-repro-pat/pull/350))
+- *(executor)* Generic precompile overrides ([#340](https://github.com/ethereum-optimism/kona-repro-pat/pull/340))
+- *(executor)* Builder pattern for `StatelessL2BlockExecutor` ([#339](https://github.com/ethereum-optimism/kona-repro-pat/pull/339))
+
+### Fixed
+- *(workspace)* Use published `revm` version ([#459](https://github.com/ethereum-optimism/kona-repro-pat/pull/459))
+- downgrade for release plz ([#458](https://github.com/ethereum-optimism/kona-repro-pat/pull/458))
+- *(workspace)* Add Unused Dependency Lint ([#453](https://github.com/ethereum-optimism/kona-repro-pat/pull/453))
+- Don't hold onto intermediate execution cache across block boundaries ([#396](https://github.com/ethereum-optimism/kona-repro-pat/pull/396))
+
+### Other
+- *(workspace)* Alloy Version Bumps ([#467](https://github.com/ethereum-optimism/kona-repro-pat/pull/467))
+- *(workspace)* Update for `anton-rs` org transfer ([#474](https://github.com/ethereum-optimism/kona-repro-pat/pull/474))
+- *(workspace)* Hoist Dependencies ([#466](https://github.com/ethereum-optimism/kona-repro-pat/pull/466))
+- refactor types out of kona-derive ([#454](https://github.com/ethereum-optimism/kona-repro-pat/pull/454))
+- *(deps)* Bump revm version to v13 ([#422](https://github.com/ethereum-optimism/kona-repro-pat/pull/422))
+
 ## [0.0.1](https://github.com/anton-rs/kona/releases/tag/kona-executor-v0.0.1) - 2024-06-22
 
 ### Other
